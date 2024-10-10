@@ -1,6 +1,6 @@
 import React from 'react';
 import PxToRemConverter from './components/PxToRemConverter';
-import { Github } from 'lucide-react';
+import { GithubIcon } from 'lucide-react'; // Correct the import
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
           rel="noopener noreferrer"
           className="inline-flex items-center text-blue-600 hover:text-blue-800 mt-2"
         >
-          <Github className="w-5 h-5 mr-2" />
+          <GithubIcon className="w-5 h-5 mr-2" /> {/* Use the correct icon component */}
           View on GitHub
         </a>
       </footer>
